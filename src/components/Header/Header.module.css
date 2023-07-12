@@ -1,0 +1,42 @@
+.header {
+  background-color: #212544;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  color: #f3ca81;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #4ca5b0;
+  transition: color 0.3s ease;
+}
+
+.navItem a:hover {
+  color: #f38e67;
+}
+
+.navItem a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #f3ca81;
+  transition: width 0.3s ease;
+}
+
+.navItem a:hover::after {
+  width: 100%;
+}
