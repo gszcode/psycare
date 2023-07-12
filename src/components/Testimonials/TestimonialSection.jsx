@@ -66,7 +66,7 @@ const TestimonialSection = () => {
             <p className={styles.clientName}>- Pedro Sánchez</p>
           </div>
         </div>
-        <button className={styles.viewMoreButton}>Ver más testimonios</button>
+        {/* <button className={styles.viewMoreButton}>Ver más testimonios</button> */}
       </div>
     </section>
   )
