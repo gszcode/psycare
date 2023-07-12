@@ -61,3 +61,30 @@ export const headerLinks = [
     link: 'Contacto'
   }
 ]
+
+export const testimonialsData = [
+  {
+    id: 1,
+    description:
+      '¡La terapia en PsyCare ha sido transformadora! Me ha ayudado a entender y superar mis miedos. ¡Gracias por su apoyo y profesionalidad!',
+    name: 'Ana Gómez'
+  },
+  {
+    id: 2,
+    description:
+      'Recomiendo a PsyCare sin ninguna duda. Su enfoque personalizado y su trato cálido me han hecho sentir escuchado y comprendido durante todo el proceso de terapia.',
+    name: 'Carlos Martínez'
+  },
+  {
+    id: 3,
+    description:
+      ' Mi experiencia en PsyCare ha sido excepcional. Los profesionales son altamente cualificados y han sabido brindarme las herramientas necesarias para afrontar mis desafíos emocionales.',
+    name: 'Laura Rodríguez'
+  },
+  {
+    id: 4,
+    description:
+      'Estoy muy agradecido por la ayuda y el apoyo que he recibido en PsyCare. Gracias a su profesionalismo y dedicación, he logrado un gran progreso en mi bienestar emocional.',
+    name: 'Pedro Sánchez'
+  }
+]
