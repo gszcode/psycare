@@ -7,7 +7,7 @@ const HomeSection = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Bienvenido a PsyCare</h1>
         <p className={styles.subtitle}>Tu camino hacia el bienestar mental</p>
-        <a href="#" className={styles.button}>
+        <a href="#contact" className={styles.button}>
           ¡Comienza tu viaje!
         </a>
       </div>
