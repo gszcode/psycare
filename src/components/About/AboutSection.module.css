@@ -1,7 +1,8 @@
 .aboutSection {
   background: linear-gradient(to right, #212544, #4ca5b0);
   padding: 60px 0;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
