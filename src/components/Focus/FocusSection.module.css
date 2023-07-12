@@ -45,3 +45,13 @@
   font-size: 18px;
   line-height: 1.5;
 }
+
+@media (max-width: 768px) {
+  .focusAreas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .focusArea {
+    width: 350px;
+    margin: auto;
+  }
+}

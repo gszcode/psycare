@@ -17,9 +17,7 @@ const ContactSection = () => {
           </div>
           <div className={styles.infoItem}>
             <FiMapPin className={styles.icon} />
-            <p className={styles.infoText}>
-              Calle Principal 123, Buenos Aires, Argentina
-            </p>
+            <p className={styles.infoText}>Buenos Aires, Argentina</p>
           </div>
         </div>
         <form className={styles.contactForm}>

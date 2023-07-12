@@ -1,6 +1,6 @@
 .aboutSection {
   background: linear-gradient(to right, #212544, #4ca5b0);
-  padding: 60px 0;
+  padding: 60px 20px;
   min-height: 100vh;
   height: auto;
   display: flex;
@@ -55,4 +55,10 @@
 
 .image:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }

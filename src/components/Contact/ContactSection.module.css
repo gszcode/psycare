@@ -80,3 +80,9 @@
 .submitButton:hover {
   background-color: #f38e67;
 }
+
+@media (max-width: 640px) {
+  .contactForm {
+    max-width: 350px;
+  }
+}

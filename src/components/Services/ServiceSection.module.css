@@ -48,3 +48,13 @@
   line-height: 1.5;
   color: #4ca5b0;
 }
+
+@media (max-width: 768px) {
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .service {
+    width: 350px;
+    margin: auto;
+  }
+}
