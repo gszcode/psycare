@@ -28,3 +28,36 @@ export const focusData = [
       ' Nos dedicamos a establecer una relación de confianza y empatía contigo para que te sientas cómodo y apoyado en todo momento.'
   }
 ]
+
+export const headerLinks = [
+  {
+    id: 1,
+    href: 'home',
+    link: 'Inicio'
+  },
+  {
+    id: 2,
+    href: 'about',
+    link: 'Nosotros'
+  },
+  {
+    id: 3,
+    href: 'services',
+    link: 'Servicios'
+  },
+  {
+    id: 4,
+    href: 'focus',
+    link: 'Enfoque'
+  },
+  {
+    id: 5,
+    href: 'testimonials',
+    link: 'Testimonios'
+  },
+  {
+    id: 6,
+    href: 'contact',
+    link: 'Contacto'
+  }
+]
