@@ -2,7 +2,7 @@ import styles from './HomeSection.module.css'
 
 const HomeSection = () => {
   return (
-    <section className={styles.homeSection}>
+    <section className={styles.homeSection} id="home">
       <div className={styles.backgroundImage} />
       <div className={styles.content}>
         <h1 className={styles.title}>Bienvenido a PsyCare</h1>

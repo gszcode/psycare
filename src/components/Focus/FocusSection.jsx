@@ -3,7 +3,7 @@ import styles from './FocusSection.module.css'
 
 const FocusSection = () => {
   return (
-    <section className={styles.focusSection}>
+    <section className={styles.focusSection} id="focus">
       <div className={styles.container}>
         <h2 className={styles.title}>Nuestro Enfoque</h2>
         <div className={styles.focusAreas}>

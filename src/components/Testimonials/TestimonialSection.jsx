@@ -3,7 +3,7 @@ import styles from './TestimonialSection.module.css'
 
 const TestimonialSection = () => {
   return (
-    <section className={styles.testimonialsSection}>
+    <section className={styles.testimonialsSection} id="testimonials">
       <div className={styles.container}>
         <h2 className={styles.title}>Testimonios</h2>
         <div className={styles.testimonials}>
